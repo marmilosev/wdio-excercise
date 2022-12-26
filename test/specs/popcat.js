@@ -1,11 +1,11 @@
-describe('OPop cat', () => {
-    
-   /* it('Proper title is displayed', () => {
-        browser.url('https://popcat.click/');
-          i= 1;
-          do{
-        $("#app").click();
-    i++;}while(i<=100);
-    })*/
+it('popcat click', async() => {
+    browser.url('https://popcat.click/');
+
+   for (var i = 0; i < 50; i++) {
+         $("#app").click();
+         await browser.pause(500);
+    }
+
+
 
 });

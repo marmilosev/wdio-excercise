@@ -12,6 +12,7 @@
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.js",
-        "test": "wdio wdio.conf.js"
+        "test": "wdio wdio.conf.js",
+        "test-zavrsni": "wdio wdio-zavrsni.conf.js"
     }
 }
